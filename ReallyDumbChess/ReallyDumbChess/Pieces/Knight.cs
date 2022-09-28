@@ -4,9 +4,11 @@ namespace ReallyDumbChess.Pieces
     public class Knight : GamePiece
     {
         public Cell position;
+        PlayerColor playerColor;
 
         public Knight(PlayerColor color)
         {
+            playerColor = color;
         }
 
         public override void isLegal(Cell current, Board board)
@@ -28,7 +30,14 @@ namespace ReallyDumbChess.Pieces
 
         public override void display()
         {
-            Console.Write("n");
+            if (playerColor == PlayerColor.White)
+            {
+                Console.Write(" n ");
+            }
+            else
+            {
+                Console.Write(" N ");
+            }
         }
 
     }

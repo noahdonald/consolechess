@@ -3,13 +3,23 @@ namespace ReallyDumbChess.Pieces
 {
     public class Pawn : GamePiece
     {
+        PlayerColor playerColor;
+
         public Pawn(PlayerColor color)
         {
+            playerColor = color;
         }
 
         public override void display()
         {
-            Console.Write("p");
+            if (playerColor == PlayerColor.White)
+            {
+                Console.Write(" p ");
+            }
+            else
+            {
+                Console.Write(" P ");
+            }
         }
 
         public override void isLegal(Cell current, Board board)

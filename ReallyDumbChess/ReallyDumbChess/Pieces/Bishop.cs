@@ -3,13 +3,23 @@ namespace ReallyDumbChess.Pieces
 {
     public class Bishop :GamePiece
     {
+        PlayerColor playerColor;
+
         public Bishop(PlayerColor color)
         {
+            playerColor = color;
         }
 
         public override void display()
         {
-            Console.Write("b");
+            if (playerColor == PlayerColor.White)
+            {
+                Console.Write(" b ");
+            }
+            else
+            {
+                Console.Write(" B ");
+            }
         }
 
         public override void isLegal(Cell current, Board board)

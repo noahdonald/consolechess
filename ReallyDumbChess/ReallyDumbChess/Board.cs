@@ -93,41 +93,41 @@ namespace ReallyDumbChess
                     grid[i, j] = new Cell(i, j);
                 }
             }
-            addPiece(grid[0, 0], new Rook(PlayerColor.White));
-            addPiece(grid[1, 0], new Knight(PlayerColor.White));
-            addPiece(grid[2, 0], new Bishop(PlayerColor.White));
-            addPiece(grid[3, 0], new Queen(PlayerColor.White));
-            addPiece(grid[4, 0], new King(PlayerColor.White));
-            addPiece(grid[5, 0], new Bishop(PlayerColor.White));
-            addPiece(grid[6, 0], new Knight(PlayerColor.White));
             addPiece(grid[7, 0], new Rook(PlayerColor.White));
+            addPiece(grid[7, 1], new Knight(PlayerColor.White));
+            addPiece(grid[7, 2], new Bishop(PlayerColor.White));
+            addPiece(grid[7, 3], new Queen(PlayerColor.White));
+            addPiece(grid[7, 4], new King(PlayerColor.White));
+            addPiece(grid[7, 5], new Bishop(PlayerColor.White));
+            addPiece(grid[7, 6], new Knight(PlayerColor.White));
+            addPiece(grid[7, 7], new Rook(PlayerColor.White));
 
-            addPiece(grid[0, 1], new Pawn(PlayerColor.White));
-            addPiece(grid[1, 1], new Pawn(PlayerColor.White));
-            addPiece(grid[2, 1], new Pawn(PlayerColor.White));
-            addPiece(grid[3, 1], new Pawn(PlayerColor.White));
-            addPiece(grid[4, 1], new Pawn(PlayerColor.White));
-            addPiece(grid[5, 1], new Pawn(PlayerColor.White));
+            addPiece(grid[6, 0], new Pawn(PlayerColor.White));
             addPiece(grid[6, 1], new Pawn(PlayerColor.White));
-            addPiece(grid[7, 1], new Pawn(PlayerColor.White));
+            addPiece(grid[6, 2], new Pawn(PlayerColor.White));
+            addPiece(grid[6, 3], new Pawn(PlayerColor.White));
+            addPiece(grid[6, 4], new Pawn(PlayerColor.White));
+            addPiece(grid[6, 5], new Pawn(PlayerColor.White));
+            addPiece(grid[6, 6], new Pawn(PlayerColor.White));
+            addPiece(grid[6, 7], new Pawn(PlayerColor.White));
 
-            addPiece(grid[0, 6], new Pawn(PlayerColor.Black));
+            addPiece(grid[1, 0], new Pawn(PlayerColor.Black));
+            addPiece(grid[1, 1], new Pawn(PlayerColor.Black));
+            addPiece(grid[1, 2], new Pawn(PlayerColor.Black));
+            addPiece(grid[1, 3], new Pawn(PlayerColor.Black));
+            addPiece(grid[1, 4], new Pawn(PlayerColor.Black));
+            addPiece(grid[1, 5], new Pawn(PlayerColor.Black));
             addPiece(grid[1, 6], new Pawn(PlayerColor.Black));
-            addPiece(grid[2, 6], new Pawn(PlayerColor.Black));
-            addPiece(grid[3, 6], new Pawn(PlayerColor.Black));
-            addPiece(grid[4, 6], new Pawn(PlayerColor.Black));
-            addPiece(grid[5, 6], new Pawn(PlayerColor.Black));
-            addPiece(grid[6, 6], new Pawn(PlayerColor.Black));
-            addPiece(grid[7, 6], new Pawn(PlayerColor.Black));
+            addPiece(grid[1, 7], new Pawn(PlayerColor.Black));
 
+            addPiece(grid[0, 0], new Rook(PlayerColor.Black));
+            addPiece(grid[0, 1], new Knight(PlayerColor.Black));
+            addPiece(grid[0, 2], new Bishop(PlayerColor.Black));
+            addPiece(grid[0, 3], new Queen(PlayerColor.Black));
+            addPiece(grid[0, 4], new King(PlayerColor.Black));
+            addPiece(grid[0, 5], new Bishop(PlayerColor.Black));
+            addPiece(grid[0, 6], new Knight(PlayerColor.Black));
             addPiece(grid[0, 7], new Rook(PlayerColor.Black));
-            addPiece(grid[1, 7], new Knight(PlayerColor.Black));
-            addPiece(grid[2, 7], new Bishop(PlayerColor.Black));
-            addPiece(grid[3, 7], new Queen(PlayerColor.Black));
-            addPiece(grid[4, 7], new King(PlayerColor.Black));
-            addPiece(grid[5, 7], new Bishop(PlayerColor.Black));
-            addPiece(grid[6, 7], new Knight(PlayerColor.Black));
-            addPiece(grid[7, 7], new Rook(PlayerColor.Black));
         }
     }
 }
