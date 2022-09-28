@@ -1,0 +1,15 @@
+C:\Users\RyZen\git\consolechess\ReallyDumbChess\ReallyDumbChess\obj\Debug\net6.0\ReallyDumbChess.csproj.AssemblyReference.cache
+C:\Users\RyZen\git\consolechess\ReallyDumbChess\ReallyDumbChess\obj\Debug\net6.0\ReallyDumbChess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RyZen\git\consolechess\ReallyDumbChess\ReallyDumbChess\obj\Debug\net6.0\ReallyDumbChess.AssemblyInfoInputs.cache
+C:\Users\RyZen\git\consolechess\ReallyDumbChess\ReallyDumbChess\obj\Debug\net6.0\ReallyDumbChess.AssemblyInfo.cs
+C:\Users\RyZen\git\consolechess\ReallyDumbChess\ReallyDumbChess\obj\Debug\net6.0\ReallyDumbChess.csproj.CoreCompileInputs.cache
+C:\Users\RyZen\git\consolechess\ReallyDumbChess\ReallyDumbChess\bin\Debug\net6.0\ReallyDumbChess.exe
+C:\Users\RyZen\git\consolechess\ReallyDumbChess\ReallyDumbChess\bin\Debug\net6.0\ReallyDumbChess.deps.json
+C:\Users\RyZen\git\consolechess\ReallyDumbChess\ReallyDumbChess\bin\Debug\net6.0\ReallyDumbChess.runtimeconfig.json
+C:\Users\RyZen\git\consolechess\ReallyDumbChess\ReallyDumbChess\bin\Debug\net6.0\ReallyDumbChess.dll
+C:\Users\RyZen\git\consolechess\ReallyDumbChess\ReallyDumbChess\bin\Debug\net6.0\ReallyDumbChess.pdb
+C:\Users\RyZen\git\consolechess\ReallyDumbChess\ReallyDumbChess\obj\Debug\net6.0\ReallyDumbChess.dll
+C:\Users\RyZen\git\consolechess\ReallyDumbChess\ReallyDumbChess\obj\Debug\net6.0\refint\ReallyDumbChess.dll
+C:\Users\RyZen\git\consolechess\ReallyDumbChess\ReallyDumbChess\obj\Debug\net6.0\ReallyDumbChess.pdb
+C:\Users\RyZen\git\consolechess\ReallyDumbChess\ReallyDumbChess\obj\Debug\net6.0\ReallyDumbChess.genruntimeconfig.cache
+C:\Users\RyZen\git\consolechess\ReallyDumbChess\ReallyDumbChess\obj\Debug\net6.0\ref\ReallyDumbChess.dll

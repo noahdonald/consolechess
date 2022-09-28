@@ -5,7 +5,7 @@ namespace ReallyDumbChess.Pieces
     {
         public Cell position;
 
-        public Knight()
+        public Knight(PlayerColor color)
         {
         }
 
@@ -28,7 +28,7 @@ namespace ReallyDumbChess.Pieces
 
         public override void display()
         {
-            Console.Write('n');
+            Console.Write("n");
         }
 
     }
