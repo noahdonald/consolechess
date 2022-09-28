@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{E1C756B2-0734-4F5A-9482-68B6723614A7}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ReallyDumbChess/Program.cs">
+    <Files>
+      <File FileName="ReallyDumbChess/Board.cs" Line="103" Column="28" />
+      <File FileName="ReallyDumbChess/Game.cs" Line="1" Column="1" />
+      <File FileName="ReallyDumbChess/GamePiece.cs" Line="1" Column="1" />
+      <File FileName="ReallyDumbChess/Program.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ReallyDumbChess" expanded="True">
+            <Node name="ReallyDumbChess" expanded="True">
+              <Node name="Pieces" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.ReallyDumbChess PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

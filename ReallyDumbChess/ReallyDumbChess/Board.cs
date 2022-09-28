@@ -31,14 +31,12 @@ namespace ReallyDumbChess
 
         public void display()
         {
+            int k = 1;
             for (int i = 0; i < size; i++)
             {
-                for (int b = 0; b < size; b++)
-                {
-                    Console.Write("+---");
-                }
-                Console.Write("+");
-                Console.WriteLine();
+                Console.WriteLine("  ---------------------------------");
+                Console.Write(k + " ");
+                k++;
                 Console.Write("|");
 
                 for (int j = 0; j < size; j++)
@@ -59,20 +57,16 @@ namespace ReallyDumbChess
                     {
                         Console.Write("   ");
                     }
+
                     Console.Write("|");
                 }
                 
                 Console.WriteLine();
             }
 
-            for (int d = 0; d < size; d++)
-            {
-                Console.Write("+---");
-            }
-            Console.Write("+");
-            Console.WriteLine();
-
-            Console.WriteLine("=================================");
+            Console.WriteLine("  ---------------------------------");
+            Console.WriteLine("    A   B   C   D   E   F   G   H");
+            Console.WriteLine("=====================================");
         }
 
         public void addPiece(Cell cell,GamePiece piece)
