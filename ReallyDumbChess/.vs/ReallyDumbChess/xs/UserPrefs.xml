@@ -1,11 +1,15 @@
 ﻿<Properties StartupConfiguration="{E1C756B2-0734-4F5A-9482-68B6723614A7}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workbench ActiveDocument="ReallyDumbChess/Program.cs">
     <Files>
-      <File FileName="ReallyDumbChess/Board.cs" Line="103" Column="28" />
-      <File FileName="ReallyDumbChess/Game.cs" Line="1" Column="1" />
+      <File FileName="ReallyDumbChess/Board.cs" Line="17" Column="23" />
+      <File FileName="ReallyDumbChess/Game.cs" Line="44" Column="1" />
+      <File FileName="ReallyDumbChess/Move.cs" Line="8" Column="26" />
       <File FileName="ReallyDumbChess/GamePiece.cs" Line="1" Column="1" />
-      <File FileName="ReallyDumbChess/Program.cs" Line="1" Column="1" />
+      <File FileName="ReallyDumbChess/Program.cs" Line="10" Column="1" />
+      <File FileName="ReallyDumbChess/Pieces/Knight.cs" Line="1" Column="1" />
+      <File FileName="ReallyDumbChess/Cell.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -26,6 +30,5 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.ReallyDumbChess PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>

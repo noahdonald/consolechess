@@ -123,6 +123,8 @@ namespace ReallyDumbChess
             addPiece(grid[0, 6], new Knight(PlayerColor.Black));
             addPiece(grid[0, 7], new Rook(PlayerColor.Black));
         }
+
+
     }
 }
 
