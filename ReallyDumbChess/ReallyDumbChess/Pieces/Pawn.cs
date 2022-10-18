@@ -1,13 +1,14 @@
 ﻿using System;
+using System.Drawing;
+
 namespace ReallyDumbChess.Pieces
 {
     public class Pawn : GamePiece
     {
-        PlayerColor playerColor;
-
-        public Pawn(PlayerColor color)
+        
+        public Pawn(PlayerColor color) : base(color)
         {
-            playerColor = color;
+            
         }
 
         public override void display()
@@ -24,12 +25,67 @@ namespace ReallyDumbChess.Pieces
 
         public override void isLegal(Cell current, Board board)
         {
-            throw new NotImplementedException();
+            if (playerColor == PlayerColor.Black)
+            {
+                if (isSafe(current.rowNum + 1, current.columnNum))
+                {
+                    board.grid[current.rowNum + 1, current.columnNum].legalMove = true;
+                }
+                if (isSafe(current.rowNum + 1, current.columnNum + 1))
+                {
+                    if (board.grid[current.rowNum + 1, current.columnNum + 1].occupied == true)
+                    {
+                        board.grid[current.rowNum + 1, current.columnNum + 1].legalMove = true;
+                    }
+                }
+                if (isSafe(current.rowNum + 1, current.columnNum - 1))
+                {
+                    if (board.grid[current.rowNum + 1, current.columnNum - 1].occupied == true)
+                    {
+                        board.grid[current.rowNum + 1, current.columnNum - 1].legalMove = true;
+                    }
+                }
+            }
+            else
+            {
+                if (isSafe(current.rowNum - 1, current.columnNum))
+                {
+                    board.grid[current.rowNum - 1, current.columnNum].legalMove = true;
+                }
+                if (isSafe(current.rowNum - 1, current.columnNum - 1))
+                {
+                    if (board.grid[current.rowNum - 1, current.columnNum - 1].occupied == true)
+                    {
+                        board.grid[current.rowNum - 1, current.columnNum - 1].legalMove = true;
+                    }
+                }
+                if (isSafe(current.rowNum - 1, current.columnNum + 1))
+                {
+                    if (board.grid[current.rowNum - 1, current.columnNum + 1].occupied == true)
+                    {
+                        board.grid[current.rowNum - 1, current.columnNum + 1].legalMove = true;
+                    }
+                }
+            }
         }
 
-        public override void move(string dest)
+        public override void move(Cell dest)
         {
-            throw new NotImplementedException();
+            position.occupied = false;
+            position = dest;
+            dest.occupied = true;
+        }
+
+        public bool isSafe(int x, int y)
+        {
+            if (x < 0 || x > 7 || y < 0 || y > 7)
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
         }
     }
 }

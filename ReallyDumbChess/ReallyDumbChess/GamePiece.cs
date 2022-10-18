@@ -5,12 +5,17 @@ namespace ReallyDumbChess
     {
         public Cell position;
 
-        public PlayerColor color
+        public PlayerColor playerColor
         {
-            set; get;
+            private set;
+            get;
         }
 
-        abstract public void move(string dest);
+        public GamePiece(PlayerColor color)
+        {
+            this.playerColor = color;
+        }
+        abstract public void move(Cell dest);
 
         abstract public void isLegal(Cell current, Board board);
 

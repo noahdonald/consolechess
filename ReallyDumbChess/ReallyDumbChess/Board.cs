@@ -9,6 +9,10 @@ namespace ReallyDumbChess
 
         List<GamePiece> pieces = new List<GamePiece> {  };
 
+        public List<GamePiece> whiteCaptured = new List<GamePiece> { };
+
+        public List<GamePiece> blackCaptured = new List<GamePiece> { };
+
         public Board()
         {
             Reset();
@@ -21,7 +25,6 @@ namespace ReallyDumbChess
                 for (int j = 0; j < size; j++)
                 {
                     grid[i, j].legalMove = false;
-                    grid[i, j].occupied = false;
                 }
 
             }
@@ -75,6 +78,34 @@ namespace ReallyDumbChess
             pieces.Add(piece);
             piece.position = cell;
 
+        }
+
+        public GamePiece getPiece(Cell cell)
+        {
+            GamePiece gamePiece = null;
+            foreach (GamePiece piece in pieces)
+            {
+                if (piece.position == cell)
+                {
+                    gamePiece = piece;
+                }
+                
+            }
+            return gamePiece;
+        }
+
+        public void capturePiece(Cell cell)
+        {
+            GamePiece piece = getPiece(cell);
+            if (piece.playerColor == PlayerColor.White)
+            {
+                blackCaptured.Add(piece);
+            }
+            else
+            {
+                whiteCaptured.Add(piece);
+            }
+            pieces.Remove(piece);
         }
 
         public void Reset()
